@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Volkhov&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  height: 100vh;
+  background-color: #DAE8E1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+  height: 85%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: aliceblue;
+  overflow-y: scroll;
+}
+
+.output{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 10px;
+  background-color: aliceblue;
+  overflow-y: scroll;
+}
+
+.input-title{
+  margin-top: 30px;
+  margin-left: 16%;
+  font-family: 'Volkhov', serif;
+  font-size: 34px;
+}
+
+.output-title{
+  margin-top: 30px;
+  margin-left: 12%;
+  font-family: 'Volkhov', serif;
+  font-size: 34px;
+}
+
+.playlist-text{
+  font-size: 21px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.playlist-text-output{
+  font-size: 21px;
+  margin-top: 30px;
+  margin-left: 30px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.playlist-format{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.text-input{
+  display: block;
+  border-radius: 10px;
+  height: 35px;
+  font-size: 16px;
+  margin-right: 10px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding-right: 150px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #C4C4C4;
+  margin-top: 10px;
+  color: black;
+  background-color: white;
+}
+
+text-input::placeholder{
+  overflow: visible;
+}
