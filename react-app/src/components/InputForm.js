@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import TextInput from './TextInput';
+import OutputForm from './OutputForm';
 
 export default function InputForm() {
     return(
@@ -34,7 +35,8 @@ export default function InputForm() {
                 <h3 className='playlist-text'>Enter Playlist 5: (Optional)</h3>
                 <TextInput className = 'text-input' placeholder = 'Enter Playlist 5 - Name' type = 'text' name = 'playlist'/>
                 <TextInput className = 'text-input' placeholder = 'Enter Playlist 5 - Link' type = 'text' name = 'playlist'/>
-            </div>             
+            </div>   
+            <button class="button-85" role="button" onClick = 'runModel'>Predict</button>          
         </div>
     );
 }
