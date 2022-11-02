@@ -1,6 +1,5 @@
 import React from 'react';
-import InputForm from './components/InputForm';
-import OutputForm from './components/OutputForm';
+import Form from './components/Form';
 import './App.css';
 
 function App() {

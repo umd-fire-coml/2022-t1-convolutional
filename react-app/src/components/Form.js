@@ -38,7 +38,7 @@ const handleSubmit=(e)=>{
     // opacity: 1;
 }
 
-export default function InputForm() {
+export default function Form() {
     return(
         <div className='form'>
             <div className='input'>
