@@ -58,7 +58,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.playlist-text-output{
+.playlist-text-out{
   font-size: 21px;
   margin-top: 30px;
   margin-left: 30px;
@@ -74,7 +74,9 @@
   margin-left: 30px;
 }
 
-.text-input{
+.first-text-input, .second-text-input, .third-text-input, .fourth-text-input,
+.fifth-text-input, .first-link-input, .second-link-input, .third-link-input, 
+.fourth-link-input, .fifth-link-input {
   display: block;
   border-radius: 10px;
   height: 35px;
@@ -166,4 +168,19 @@ text-input::placeholder{
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+
+.output-list{
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 60px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  list-style-position: outside;
+  line-height: 3.3rem;
+}
+
+.visible{
+  opacity: 0;
 }

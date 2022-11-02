@@ -7,10 +7,8 @@ function App() {
   return (
     <div>
       <div className = 'container'>
-        <div className = 'form'>
             <InputForm/>
             <OutputForm/>
-        </div>
       </div>
     </div>
   );
