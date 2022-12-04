@@ -66,7 +66,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.playlist-format{
+.playlist-format, .playlist-format-2, .playlist-format-3, .playlist-format-4, .playlist-format-5{
   display: flex;
   flex-direction: column;
   margin-top: 30px;
@@ -99,7 +99,7 @@ text-input::placeholder{
   overflow: visible;
 }
 
-.button-85 {
+.button-1 {
   margin: 30px;
   height: 50px;
   width: 340px;
@@ -118,7 +118,7 @@ text-input::placeholder{
   touch-action: manipulation;
 }
 
-.button-85:before {
+.button-1:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -158,7 +158,7 @@ text-input::placeholder{
   }
 }
 
-.button-85:after {
+.button-1:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -179,4 +179,38 @@ text-input::placeholder{
   font-family: 'Montserrat', sans-serif;
   list-style-position: outside;
   line-height: 3.3rem;
+}
+
+/* CSS */
+.button-2 {
+  margin: 30px;
+  height: 50px;
+  width: 340px;
+  padding: 0.6em 2em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-2:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-2:active {
+  transform: scale(0.95);
 }
