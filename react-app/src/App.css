@@ -180,7 +180,3 @@ text-input::placeholder{
   list-style-position: outside;
   line-height: 3.3rem;
 }
-
-.visible{
-  opacity: 0;
-}
