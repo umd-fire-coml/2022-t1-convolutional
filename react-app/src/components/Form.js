@@ -60,6 +60,7 @@ export default function Form() {
 
         if (input_link.length > 0) {
             const resp = await recommend(input_link);
+            console.log(resp.recommendations)
             setRecs(resp.recommendations);
         }
     };
@@ -159,7 +160,7 @@ export default function Form() {
                 <h1 className='output-title'>Song Recommendations</h1>
                 <h3 className='playlist-text-out'>Listen to these songs!</h3>
                 <ul className='output-list visible'>
-                    {recs.map((idx, rec) => <li key={idx}>{rec}</li>)}
+                    {recs.map((rec, idx) => <li key={idx}>{rec}</li>)}
                 </ul>
             </div>
         </div>
