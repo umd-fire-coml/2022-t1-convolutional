@@ -29,7 +29,6 @@ def get_features_by_ids(ids_arr):
     for v in result:
         vecs.append(tuple(list(v.values())[:11]))
 
-
     avg = tuple(np.average(np.array(vecs), axis=0))
 
     return avg

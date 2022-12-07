@@ -1,14 +1,8 @@
 import React, { useState } from 'react';
 import '../App.css';
 import TextInput from './TextInput';
-import * as tf from '@tensorflow/tfjs';
 import ToggleVisibility from './ToggleVisibility';
 import { recommend } from '../recommend';
-
-async function loadModel() {
-    const model = await tf.loadGraphModel('(Model)');
-    console.log('Model Loaded');
-}
 
 export default function Form() {
     const [recs, setRecs] = useState([]);
@@ -52,15 +46,9 @@ export default function Form() {
         if (third_link) input_link.push(third_link);
         if (fourth_link) input_link.push(fourth_link);
         if (fifth_link) input_link.push(fifth_link);
-        // output = model.predict(input_name, input_link);
-        // const output = output.dataSync();
-        // opacity: 1;
-
-        console.log(input_link);
 
         if (input_link.length > 0) {
             const resp = await recommend(input_link);
-            console.log(resp.recommendations)
             setRecs(resp.recommendations);
         }
     };
@@ -159,9 +147,9 @@ export default function Form() {
             <div className='output'>
                 <h1 className='output-title'>Song Recommendations</h1>
                 <h3 className='playlist-text-out'>Listen to these songs!</h3>
-                <ul className='output-list visible'>
+                <ol className='output-list visible'>
                     {recs.map((rec, idx) => <li key={idx}>{rec}</li>)}
-                </ul>
+                </ol>
             </div>
         </div>
     );

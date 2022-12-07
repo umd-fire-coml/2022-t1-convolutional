@@ -1,13 +1,3 @@
-# pip install flask==2.2.2
-# pip install tensorflow
-# pip install numpy
-# pip install spotipy
-# pip install python-dotenv
-
-# conda install -c conda-forge faiss
-
-# ------------------------------------
-
 from embeddings import load_model
 from sp import get_songs_by_ids
 
