@@ -1,6 +1,6 @@
 <h1 align="center">Music Recommendation System </h1>
 <p align="center">By: Andrew Lee, Krisha Gandhi, Pranav Dulepet, Rishiraj Ghosh, Vikas Reddy </p>
-<div align="center"><a href="https://fire-song-recommendation.vercel.app/">Live App Demo</a></div>
+<div align="center"><h3><a href="https://fire-song-recommendation.vercel.app/">Live App Demo</a></h3></div>
 
 ## Description:
 We have created a song recommendation system based on user history. Our product takes in a user’s playlist(s) and recommends songs based on the playlist(s). 
@@ -60,4 +60,3 @@ npm start
 [1] Xingping Dong, Jianbing Shen; Proceedings of the European Conference on Computer Vision (ECCV), 2018, pp. 459-474 <br><br>
 [2]  D. Wettschereck and D. Thomas G., “Locally adaptive nearest neighbor algorithms,” Adv. Neural Inf. Process. Syst., pg. 184–186, 1994. <br><br>
 [3] Han EH.., Karypis G., Kumar V. (2001) “Text Categorization Using Weight Adjusted k-Nearest Neighbour Classification”. In: Cheung D., Williams G.J., Li Q. (eds) Advances in Knowledge Discovery and Data Mining. PAKDD 2001. Lecture Notes in Computer Science, vol 2035. Springer, Berlin, Heidelberg
-
