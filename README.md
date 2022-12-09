@@ -34,6 +34,11 @@ The product uses the Spotify API to extract the features of a song (11 features 
 ### Testing the Model:
 #### Running the Flask Server:
 1) Create a Spotify ```client_id``` & ```client_secret``` ([Instructions](https://developer.spotify.com/documentation/web-api/quick-start/))
+```
+SPOTIFY_CLIENT_ID=[your_client_id]
+SPOTIFY_CLIENT_SECRET=[your_client_secret]
+```
+
 2) Create a ```.env``` file in the server folder
 3) Install Python packages
 ```
